@@ -1,0 +1,114 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family: 'Noto Sans KR';
+  color:#262626;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.Statusbar_div_board{
+  background-color: #FFFFFF;
+  position: fixed;
+  width:100vw;
+
+  font-family: 'Roboto';
+  letter-spacing: -0.2;
+  font-weight: 700;
+  font-size: 18px;
+  color: #262626;
+
+  height: 50px;
+
+  padding-left:40px;
+  padding-right:16px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.Statusbar_div_board p{
+  margin-top:19px;
+}
+
+.Statusbar_span_statusIcons img{
+  margin-right: 50px;
+  margin-top:20px;
+  width:80px;
+  align-items: center;
+}
+
+.Title_div_rootBoard{
+  position: fixed;
+  width:100vw;
+  margin-top: 50px;
+  color: #262626;
+  display: flex;
+  height: 46px;
+  padding:0 16px;
+  border-bottom: 1px #eeeeee solid;
+  background-color: #FFFFFF;
+
+}
+
+
+
+.Title_div_rootBoard p{
+  margin-right: 22px;
+  text-align: center;
+  flex-grow: 1;
+  margin-top:8px;
+
+}
+
+.Title_div_rootBoard img{
+  width:6.5px;
+}
+
+.font_noto_16_400_18px{
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  font-size:18px;
+  letter-spacing: -0.02em;
+}
+
+.font_700_24px{
+  font-weight: 700;
+  font-size:24px;
+  letter-spacing: -0.02em;
+}
+
+.defaultBoard{
+  padding:96px 16px 0px 16px;
+}
+
+.font_400_14px{
+  font-weight: 400;
+  font-size:14px;
+  letter-spacing: -0.02em;
+}
