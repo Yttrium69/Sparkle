@@ -6,13 +6,9 @@ class SearchPage extends Component {
         super(props);
     }
     render() {
-        const [keyword, setKeyword]=useState('keyword');
-        function changeKeyword(keyword){
-            setKeyword(keyword);
-        }
         return (
             <div>
-                <SearchPage_Searchbar setKeyword={this.props.changeKeyword.bind(this)}></SearchPage_Searchbar>
+                검색페이지
             </div>
         );
     }

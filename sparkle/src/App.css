@@ -31,6 +31,52 @@
   }
 }
 
+.font_700_24px{
+  font-weight: 700;
+  font-size:24px;
+  letter-spacing: -0.02em;
+}
+
+.font_700_20px{
+  font-weight: 700;
+  font-size:20px;
+  letter-spacing: -0.02em;
+}
+
+.font_700_18px{
+  font-weight: 700;
+  font-size:18px;
+  letter-spacing: -0.02em;
+}
+
+.font_400_20px{
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  font-size:20px;
+  letter-spacing: -0.02em;
+}
+
+.font_400_18px{
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  font-size:18px;
+  letter-spacing: -0.02em;
+}
+
+.font_400_16px{
+  font-weight:400;
+  font-size:16px;
+  letter-spacing: -0.02em;
+}
+
+.font_400_14px{
+  font-weight: 400;
+  font-size:14px;
+  letter-spacing: -0.02em;
+}
+
+
+
 
 .Statusbar_div_board{
   background-color: #FFFFFF;
@@ -90,25 +136,15 @@
   width:6.5px;
 }
 
-.font_noto_16_400_18px{
-  font-family: 'Noto Sans KR';
-  font-weight: 400;
-  font-size:18px;
-  letter-spacing: -0.02em;
-}
 
-.font_700_24px{
-  font-weight: 700;
-  font-size:24px;
-  letter-spacing: -0.02em;
-}
 
 .defaultBoard{
   padding:96px 16px 0px 16px;
 }
 
-.font_400_14px{
-  font-weight: 400;
-  font-size:14px;
-  letter-spacing: -0.02em;
+.BoughtPage_Title_div_rootboard{
+  padding-top: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
